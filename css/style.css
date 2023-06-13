@@ -188,6 +188,7 @@ section {
   font-weight: 700;
   font-size: 36px;
   margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .what-we-do-description {
@@ -282,6 +283,10 @@ a {
   background-color: #f5f4fa;
   align-items: center;
 }
+.team-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
 
 .team-description {
   color: var(--font-black);
@@ -301,6 +306,7 @@ a {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 1%;
+  margin-top: 10px;
 }
 
 .ul-description {
@@ -308,7 +314,7 @@ a {
   display: flex;
   gap: 30px;
   justify-content: center;
-  padding: 94px 0 0;
+  margin-top: 94px;
 }
 
 .social-icon {
@@ -318,6 +324,7 @@ a {
   gap: 15px;
   margin: 30px;
   fill: var(--social-icon);
+  margin-top: 16px;
 }
 
 .social-icon-single {
@@ -410,6 +417,7 @@ a {
   display: flex;
   gap: 10px;
   padding: 0;
+  margin-top: 20px;
 }
 .footer-social-link {
   width: 44px;
@@ -436,6 +444,7 @@ a {
   gap: 30px;
   justify-content: center;
   margin-left: 0;
+  margin-top: -40px;
 }
 
 .portfolio-box {
@@ -477,6 +486,22 @@ a {
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.port-title {
+  margin-top: 15px;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.port-subtitle {
+  margin-top: 4px;
+  color: var(--paragraph-description);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
 
 .animation {
